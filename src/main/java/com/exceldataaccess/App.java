@@ -118,7 +118,7 @@ public class App
 	
 
 	
-	@AfterTest
+	@AfterMethod
 	public void close(){
 		driver.close();
 	}
